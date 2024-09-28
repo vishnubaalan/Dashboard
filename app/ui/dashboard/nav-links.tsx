@@ -9,6 +9,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import clsx from 'clsx';
 
+
 // Links for the side navigation
 const links = [
   { name: 'Home', href: '/dashboard', icon: HomeIcon },
@@ -40,5 +41,5 @@ export default function NavLinks() {
         );
       })}
     </>
-  );
+  ); 
 }
